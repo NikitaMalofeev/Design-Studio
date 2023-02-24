@@ -1,8 +1,134 @@
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.body {
+
+}
+
 .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 
 }
 
 [class*="__container"] {
+    margin: 0 auto;
+    max-width: 1468px;
+}
 
+.main  {
+    flex: 1 1 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131313;
+    min-height: 83px;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.header__name {
+    color: #E3B873;
+    margin-left: 92px;
+    
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color:#FFFFFF;
+    list-style-type: none;
+    margin-left: 50px;
+    
+}
+
+.nav__item {
+    margin-right: 47px;
+}
+
+.nav__list li:first-child {
+    color: #E3B873;
+}
+
+.header__request {
+    display: flex;
+}
+
+.header__number a{
+    text-decoration: none;
+    color: #E3B873;
+    min-width: 126px;
+
+}
+
+.header__button {
+    flex: 0 1 161px; 
+    background-color: #E3B873;
+    height: 37px;
+    margin-right: 90px;
+}
+
+.button__link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url(../images/Background.jpg);
+    min-height: 707px;
+    color: #FFFFFF;
+    padding-left: 134px;
+}
+
+.form__title {
+    font-family: 'Yeseva One';
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 53px;
+}
+
+.form__title span{
+    color: #E3B873;
+}
+
+.form__text {
+    font-size: 22px;
+    line-height: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 505px;
+    margin: 19px 0 41px;
+
+}
+
+.form__button {
+    width: 207px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.button-hollow {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background-color: transparent;
+    margin-left: 20px;
 }
