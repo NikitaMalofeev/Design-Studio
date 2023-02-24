@@ -5,7 +5,7 @@ a {
 }
 
 .body {
-
+    width: 100%;
 }
 
 .wrapper {
@@ -34,6 +34,7 @@ a {
     line-height: 15px;
     font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
+    padding: 0 -15px;
 
 }
 
@@ -80,8 +81,79 @@ a {
 }
 
 .button__link {
+    width: 161px;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+@media (max-width: 1300px) {
+    .header__number {
+        position: fixed;
+        top: 120px;
+        left: 135px;
+        text-decoration: underline;
+    }
+    .header__button {
+        position: fixed;
+        top: 140px;
+        left: 135px;
+        width: 161px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .nav__list:last-child {
+        margin-right: 35px;
+    }
+
+    .nav__item {
+        margin-right: 23px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .header__container {
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 10px;
+    }
+
+    .header__name {
+        position: fixed;
+        margin: 40px auto;
+        font-size: 16px;
+    }
+
+    .header__number {
+        position: fixed;
+        top: 120px;
+        left: 135px;
+        text-decoration: underline;
+    }
+    .header__button {
+        position: fixed;
+        top: 140px;
+        left: 135px;
+        width: 161px;
+    }
+
+    .form__title h1{
+        font-size: 30px;
+    }
+
+    .form__text p{
+        font-size: 20px;
+        padding: 0 15px 0 0;
+    }
+
+    .button-hollow {
+        position: absolute;
+        bottom: 180px;
+        left: 113px;
+    }
 }
 
 .main__form {
@@ -112,7 +184,7 @@ a {
     line-height: 36px;
     font-family: 'Nunito Sans', sans-serif;
     max-width: 505px;
-    margin: 19px 0 41px;
+    margin: 19px 0 25px;
 
 }
 
