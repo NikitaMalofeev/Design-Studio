@@ -182,7 +182,7 @@ a {
 .form__text {
     font-size: 22px;
     line-height: 36px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans';
     max-width: 505px;
     margin: 19px 0 25px;
 
@@ -204,3 +204,139 @@ a {
     background-color: transparent;
     margin-left: 20px;
 }
+
+.completed-project__container {
+    display: flex;
+    width: 1440;
+    flex-direction: row;
+    min-height: 1074px;
+    padding: 107px 134.45px 0;
+    background: #131313;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    
+}
+
+.completed-project__text {
+    flex: 1 1 40%;
+    max-height: 558px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text__main-title {
+    font-size: 27px;
+    color: #E3B873;
+    text-transform: uppercase;
+    line-height: 37px;
+    font-family: 'Yeseva One';
+    margin-top: 65px;
+}
+
+.text__main-content {
+    font-size: 14px;
+    margin: 34px 0 ;
+    max-width: 406px;
+    line-height: 26px;
+}
+
+.text__flex-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.text__flex-item-1 {
+    display: flex;
+    
+    padding-bottom: 45px;
+}
+
+.text__flex-item-2 {
+    display: flex;
+    
+}
+
+.text__flex-box-1 {
+    margin-right: 100px;
+}
+
+.text__flex-box-3 {
+    margin-right: 65px;
+}
+
+.text__subtitle {
+    font-size: 18px;
+    color: #E3B873;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-family: 'Yeseva One';
+}
+
+.text__content {
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 9px;
+}
+
+.slider {
+    margin-top: 70px;
+}
+
+
+.completed-project__images {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 60%;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.images__list {
+    display: flex;
+    justify-content: space-between;
+    width: 623px;
+    height: 73px;
+    color: rgba(255, 255, 255, 0.3);;
+    text-transform: uppercase;
+}
+
+.images__item:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.online-control__container {
+    height: 1466px;
+    top: 1650px;
+    left: 510px;
+    margin-top: -21%;
+    
+}
+.online-control__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.control__img {
+    margin-bottom: 31px;
+}
+
+.online-control__video {
+    display: flex;
+    justify-content: center;
+}
+
+.video__play {
+    margin-top: 150px;
+    position: absolute;
+}
+
+.completed-project__dash {
+    width: 55px;
+    height: 100px;
+    color: #E3B873;
+    margin: auto;
+}
+
