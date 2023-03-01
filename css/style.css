@@ -65,6 +65,9 @@ input {
 
 .nav__list li:first-child {
     color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    
 }
 
 .header__request {
@@ -446,7 +449,7 @@ input {
 .example__item-2 {
     background-image: url(../images/priceitem2.jpg);
     background-repeat: no-repeat;
-    margin: 0 30px;
+    margin: 0 42px;
 }
 
 .example__item-3 {
@@ -497,4 +500,236 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.measurer {
+    display: flex;
+    flex-direction: row;
+    height: 725px;
+    margin: 100px 0 180px;
+    background-image: url(../images/grafica.jpg);
+    background-repeat: no-repeat;
+}
+
+.measurer__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 610px;
+}
+
+.list__item {
+    display: flex;
+}
+
+.list__circle {
+    display: flex;
+    justify-content: center;
+    margin-left: 235px;
+    min-width: 41px;
+    height: 41px;
+    text-align: center;
+    background-color: #E3B873;
+    border-radius: 50px;
+    border: 10px solid white;
+
+}
+
+.list__number {
+    display: block;
+    font-size: 18px;
+    font-family: 'Yeseva One';
+    margin-top: 10px;
+    color: #FFFFFF;
+
+}
+
+.list__content {
+    margin: auto 21px;
+    max-width: 320px;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    line-height: 19px;
+    
+}
+
+.measurer__form {
+    width: 506px;
+    height: 509px;
+    margin: 59px 100px 38px 206px;
+    background-color: #131313;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+}
+
+.measurer__title {
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 28px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    
+}
+
+.measurer__name {
+    display: flex;
+    flex-direction: column;
+    margin: 49px 49px 48px;
+    height: 50px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.name__subtitle {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.name__input {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.measurer__phone {
+    display: flex;
+    flex-direction: column;
+    margin: 0 49px;
+    height: 50px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.phone__subtitle {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.phone__input {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.measurer__email {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 49px 0;
+    height: 50px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.email__subtitle {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.email__input {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.measurer__agree {
+    margin: 16px 0 0 49px;
+    font-size: 14px;
+}
+
+.measurer__button {
+    width: 213px;
+    height: 51px;
+    margin-left: 244px;
+    margin-top: 20px;
+    background: #E3B873;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+}
+
+.measurer__pigsale {
+    display: flex;
+    color: #E3B873;
+    margin-left: 240px;
+}
+
+.pigsale__img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+    background: #E3B873;
+}
+
+.pigsale__img img {
+    position: relative;
+    left: 18px;
+    top: 18px;
+}
+
+.pigsale__content {
+    max-width: 220px;
+    margin: 25px 0 0 25px;
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+
+}
+
+.realize__container {
+    display: flex;
+    flex-direction: row;
+    height: 864px;
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url(../images/realize__background.png);
+    background-size: cover;
+}
+
+.realize__list {   
+    flex: 1 1 35%;
+    padding: 137px 0 97px 99px;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.realize__list li {
+    margin-bottom: 12px;
+}
+
+.realize__image-box {
+    flex: 1 1 65%;
+}
+
+.realize__title {
+    max-width: 300px;
+    padding-bottom: 50px;
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    line-height: 37px;
+    color: #E3B873;
+    text-transform: uppercase;
+
+}
+
+.realize__list li:first-child {
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.image-box__item-1 {
+    margin-top: -5%;
+    margin-right: 45px;
+}
+
+.image-box__item-2 {
+    position: relative;
+    top: -350px;
+}
+
+.image-box__item-3 {
+    margin-bottom: 240px;
+    margin-right: 45px;
+}
+
+.image-box__item-4 {
+    position: relative;
+    top: -315px;
 }
