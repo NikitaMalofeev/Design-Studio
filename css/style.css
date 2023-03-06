@@ -72,14 +72,10 @@ input {
     display: flex;
 }
 
-.header-footer__number a{
-    text-decoration: none;
-    color: #E3B873;
-    min-width: 126px;
-}
-
 .header-footer__number-item {
     margin-right: 30px;
+    color: #E3B873;
+    text-decoration: underline;
 }
 
 .header-footer__button {
@@ -98,10 +94,6 @@ input {
 .header-footer__area-tel {
     display: flex;
     align-items: center;
-}
-
-.main__container {
-    
 }
 
 .main__form {
@@ -123,12 +115,12 @@ input {
     max-width: 1468px;
     width: 100%;
     margin: 0 auto;
+    padding-left: 134px;
 }
 
 .form__title {
     font-family: 'Yeseva One';
     font-size: 40px;
-    padding-left: 134px;
     text-transform: uppercase;
     line-height: 53px;
 }
@@ -140,7 +132,7 @@ input {
 .form__text {
     font-size: 22px;
     line-height: 36px;
-    margin: 19px 0 25px 134px;
+    margin: 16px 0 32px;
     font-family: 'Nunito Sans';
     max-width: 505px;
     
@@ -149,7 +141,7 @@ input {
 
 .form__button-box {
     display: flex;
-    padding-left: 134px;
+    
 }
 
 .form__button {
@@ -280,7 +272,7 @@ input {
     text-decoration: underline;
 }
 
-.complete__project__area-content {
+.complete-project__area-content {
     display: none;
 }
 
@@ -290,10 +282,6 @@ input {
     left: 510px;
     margin-top: -325px;
     
-}
-
-.online-control__container {
-
 }
 
 .online-control__logo {
@@ -329,8 +317,10 @@ input {
 }
 
 .application__text {
-    width: 681px;
-    margin: 0 auto 93px;
+    max-width: 681px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 93px;
     font-size: 18px;
     font-family: 'Nunito Sans';
     line-height: 38px;
@@ -339,7 +329,8 @@ input {
 }
 
 .application__form {
-    width: 769px;
+    max-width: 769px;
+    width: 100%;
     justify-content: space-between;
     display: flex;
     margin: 0 auto;
@@ -386,6 +377,10 @@ input {
     vertical-align: middle;
     font-family: 'Nunito Sans';
 
+}
+
+.application__button--hide {
+    display: none;
 }
 
 .application__img-ok {
@@ -654,7 +649,7 @@ input {
 }
 
 .realize {
-    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url(../images/realize__background.png) center/cover no-repeata;
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url(../images/realize__background.png) center/cover no-repeat;
 }
 
 .realize__container {
@@ -667,9 +662,12 @@ input {
     background-size: cover;
 }
 
-.realize__list {   
+.realize__text {
     flex: 1 1 35%;
-    padding: 137px 0 97px 99px;
+}
+
+.realize__list {   
+    padding: 0 0 97px 99px;
     font-family: 'Nunito Sans';
     font-size: 20px;
     line-height: 38px;
@@ -686,8 +684,8 @@ input {
 }
 
 .realize__title {
-    max-width: 300px;
-    padding-bottom: 50px;
+    max-width: 411px;
+    padding: 137px 0 50px 99px;
     font-family: 'Yeseva One';
     font-size: 27px;
     line-height: 37px;
@@ -874,7 +872,8 @@ input {
     position: relative;
     bottom: 60px;
     margin: 0 auto;
-    width: 883px;
+    max-width: 883px;
+    width: 100%;
     height: 445px;
     background: #181818;
     
@@ -998,7 +997,8 @@ input {
 
 .pre-footer__container {
     width: 100%;
-    height: 953px;
+    max-height: 953px;
+    height: 100%;
     margin: 0 auto;
     
 }
@@ -1039,6 +1039,7 @@ input {
 .pre-footer__map {
     display: block;
     max-width: 925px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1060,12 +1061,51 @@ input {
     .nav {
         display: none;
     }
-    .header-footer__number {
-        
+    
+    .text__flex {
+        display: none;
     }
-    .header-footer__button {
 
-}
+    .completed-project__container {
+        flex-direction: column;
+    }
+
+    .text__main-title {
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .text__main-content {
+        text-align: center;
+        margin: 36px auto;
+    }
+
+    .images__slider-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #E3B873;
+        border-radius: 50%;
+    }
+
+    .slider-item-1 {
+        position: relative;
+        top: 261px;
+        left: -78px;
+    }
+
+    .slider-item-2 {
+        position: relative;
+        top: -273px;
+        left: 708px;
+        padding: 0 15px 0;
+    }
+
+    .complete-project__area-content {
+        display: block;
+    }
 
 }
 
@@ -1079,6 +1119,34 @@ input {
         margin-right: 23px;
     }
 
+    .images__img {
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .images__list {
+        display: none;
+    }
+
+    .slider-item-1 {
+        top: 200px;
+        left: -70px;
+    }
+
+    .slider-item-2 {
+        top: -200px;
+        left: 520px;
+    }
+
+    .video__img {
+        max-width: 600px;
+    }
+
+    .video__play {
+        margin-top: 93px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1089,26 +1157,43 @@ input {
         padding-bottom: 10px;
     }
 
-    .header-footer__name {
-
-    }
-
-    .header-footer__number {
-
-    }
     .header-footer__button {
-        /* position: fixed; */
-        top: 140px;
-        left: 135px;
-        width: 161px;
+        display: none;
+    }
+
+    .header-footer__number-item {
+        color: #FFFFFF;
+    }
+    
+    .form__button-box {
+        flex-direction: column;
+    }
+
+    .form__button {
+        max-width: 236px;
+        font-size: 10px;
+    }
+
+
+    .button-hollow {
+        margin: 10px 0 0;
+    }
+
+    .form__container {
+        padding-left: 50px;
+    }
+
+    .header-footer__name {
+        margin-left: 40px;
     }
 
     .form__title h1{
-        font-size: 30px;
+        font-size: 25px;
+        line-height: 53px;
     }
 
     .form__text p{
-        font-size: 20px;
+        font-size: 25px;
         padding: 0 15px 0 0;
     }
 
@@ -1122,7 +1207,275 @@ input {
         bottom: 180px;
         left: 113px;
     }
+
+    .completed-project__container {
+        padding-left: 0px;
+        margin: 0 auto;
+        padding: 100px 0 0;
+    }
+
+    .complete-project__area-content {
+        padding-bottom: 80px;
+    }
+
+    .completed-project__images {
+        padding: 0 0;
+    }
+
+    .images__img {
+        max-width: 400px;
+    }
+
+    .images__slider {
+        background-image: url(../images/mobile-complete.jpg);
+        height: 240px;
+    }
+
+    .images__img {
+        display: none;
+    }
+
+    .images__slider-item {
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+    .slider-item-1 {
+        top: 100px;
+        left: 10px;
+    }
+
+    .slider-item-2 {
+        top: -141px;
+        left: 318px;
+    }
+
+    .online-control {
+        max-height: 1075px;
+        background-color: #131313;
+        color: #FFFFFF;
+    }
+
+    .video__img {
+        max-width: 475px;
+        width: 100%;
+    }
+
+    .video__play {
+        max-width: 100px;
+        margin-top: 75px;
+        padding: 0 10px;
+    }
+
+    .application__dash {
+        margin-top: 30px;
+    }
+    
+    .application__form {
+        flex-direction: column;
+    
+    }
+
+    .application__form input {
+        background-color: #131313;
+    }
+
+    .application__text {
+        padding: 0 15px 50px;
+        font-size: 14px;
+        width: 75%;
+
+    }
+    
+    .application__name{
+        background-color: #131313;
+        font-size: 14px;
+        border-bottom: 1px solid #363636;
+        margin: 0 auto 33px;
+    }
+
+    .application__phone {
+        font-size: 14px;
+        border-bottom: 1px solid #363636;
+        margin: 0 auto 33px;
+    }
+
+    .application__button {
+        display: none;
+    }
+
+    .application__agree {
+        text-align: center;
+        margin: 33px auto;
+    }
+
+    .application__button--hide {
+        display: block;
+        width: 251px;
+        padding: 15px 0;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0 auto;
+        background: #E3B873;
+        box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+        font-family: 'Nunito Sans';
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .repair__container {
+        padding: 0 0;
+    }
+
+    .repair__title {
+        margin-top: 100px;
+    }
+
+    .example__flex {
+        flex-direction: column;
+        
+    }
+
+    .example__item {
+        margin: 0 auto;
+    }
+
+    .step-3 {
+        margin-top: 1500px;
+    }
+
+    .measurer {
+        display: none;
+    }
+
+    .image-box {
+        padding-left: 203px;
+    }
+
+    .example__item-1 {
+        z-index: -4;
+    }
+
+    .example__item-2 {
+        z-index: -4;
+    }
+
+    .example__item-3 {
+        z-index: -4;
+    }
+
+    .example__list {
+        position: relative;
+        left: -32px;
+        z-index: -2;
+    }
+
+    .example__button {
+        margin-bottom: 20px;
+        z-index: 3;
+    }
+
+    .realize {
+        background-image: none;
+    }
+
+    .realize__container {
+        flex-direction: column;
+    }
+
+    .realize__list {
+        padding: 0 0;
+        display: none;
+    }
+
+
+    .realize__title {
+        margin: -50px auto 0;
+        padding: 0 0;
+        text-align: center;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .image-box {
+        height: 100%;
+        padding: 0 0;
+    }
+
+    .image-box__item-1 {
+        margin: 0 auto;
+        width: 354px;
+        position: relative;
+        top: -250px;
+    }
+
+    .image-box__item-1 img {
+        max-height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .image-box__item-2, .image-box__item-3, .image-box__item-4 {
+        display: none;
+    }
+
+    .clients__container {
+        max-height: 570px;
+    }
+
+    .clients__header {
+        display: none;
+    }
+
+    .clients__feedback {
+        display: none;
+    }
+
+    .clients__question {
+        margin-top: -580px;
+    }
+
+    .question {
+        height: 630px;
+        z-index: -2;
+    }
+
+    .question__wrapper {
+        padding: 0 0;
+    }
+
+    .question-title {
+        padding-top: 250px;
+    }
+
+    .question__button {
+        
+    }
+
+    .pre-footer {
+        background-image: none;
+    }
+
+    .pre-footer__container {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #181818;
+        height: none;
+        
+    
+    }
+
+    .pre-footer__title {
+        padding: 0 0;
+    }
+
+    .header-footer__container-2 {
+        display: none;
+    }
+
+
 }
+
 
 
 /* 1. Я много в каких селекторах css подключал 2 разных шрифта (особенно это видно в clients__question), почему=то я не мог задать единый шрифт nunito на body например. Как лучше было сделать со шрифтами? */
