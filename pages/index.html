@@ -10,7 +10,6 @@
     <title>Design Studio</title>
 </head>
 <body>
-    <div class="wrapper">
         <header class="header-footer">
             <div class="header-footer__container-1">
                 <div class="header-footer__name">
@@ -26,33 +25,34 @@
                         <li class="nav__item"><span class="nav__link">CONTACTS</span></li>
                         </ul>
                 </nav>
-                
-                    <div class="header-footer__number">
-                        <a href="">+7 (928) 768-32-39</a>
-                    </div>
+                <div class="header-footer__number">
+                    <a class="header-footer__number-item" href="">+7 (928) 768-32-39</a>
                     <button class="header-footer__button button"> 
                         <a class="button__link" href="">Request a call</a>
                     </button>
+                </div>
             </div>
         </header>
         <main class="main">
             <div class="main__container">
             <section class="main__form form">
-                <div class="form__title">
-                    <h1>
-                        Turnkey Repair in the <br>
-                        city of <span>Rostov-on-Don</span>
-                    </h1>
-                </div>
-                <div class="form__text">
-                    <p>Get ready-made turnkey repairs on time</p> 
-                    <p>with work time saving up to 45 days and 20% from</p>
-                    <p>cost of materials due to the organization of work</p>
+                <div class="form__container">
+                    <div class="form__title">
+                        <h1>
+                            Turnkey Repair in the <br>
+                            city of <span>Rostov-on-Don</span>
+                        </h1>
+                    </div>
+                    <div class="form__text">
+                        <p>Get ready-made turnkey repairs on time</p> 
+                        <p>with work time saving up to 45 days and 20% from</p>
+                        <p>cost of materials due to the organization of work</p>
 
-                </div>
-                <div class="button__box">
-                    <button class="form__button"><a href="">CALCULATE THE COST</a></button>
-                    <button class="form__button button-hollow"><a href="">SUBMIT YOUR APPLICATION</a></butto>
+                    </div>
+                    <div class="form__button-box">
+                        <button class="form__button"><a href="">CALCULATE THE COST</a></button>
+                        <button class="form__button button-hollow"><a href="">SUBMIT YOUR APPLICATION</a></butto>
+                    </div>
                 </div>
             </section>
             <section class="completed-project">
@@ -76,8 +76,6 @@
                                     <p class="text__content">81 m2</p>
                                 </div>
                             </div> 
-                            
-                            
                             <div class="text__flex-item-2">
                                 <div class="text__flex-box-3">
                                     <h3 class="text__subtitle">Repair time:</h3>
@@ -96,16 +94,43 @@
                 </div>
                 <div class="completed-project__images images">
                     <div class="images__list">
-                        <span class="images__item images__item-item-1">Rostov-on-Don, Admiral</span>
-                        <span class="images__item images__item-item-2">Sochi Thieves</span>
-                        <span class="images__item images__item-item-3">Rostov-on-Don Patriotic</span>
+                        <span class="images__item images__item-1">Rostov-on-Don, Admiral</span>
+                        <span class="images__item images__item-2">Sochi Thieves</span>
+                        <span class="images__item images__item-3">Rostov-on-Don Patriotic</span>
                     </div>
-                    <div><img class="images__img" src="../images/2 chairs near the window .jpg" alt="2 chairs near the window"></div>
+                    <div class="images__slider">
+                        <div class="images__slider-item slider-item-1"><img src="../images/stroke/arrowleft.svg" alt=""></div>
+                        <img class="images__img" src="../images/2 chairs near the window .jpg" alt="2 chairs near the window"></div>
+                        <div class="images__slider-item slider-item-2"><img src="../images/stroke/arrowright.svg" alt=""></div>
+                    <div class="complete__project__area-content">
+                        <div class="text__flex-item-1">
+                            <div class="text__flex-box-1">
+                                <h3 class="text__subtitle">City:</h3>
+                                <p class="text__content">Rostov-on-Don 
+                                    <br> LCD admiral</p>
+                            </div>
+                            <div class="text__flex-box-2">
+                                <h3 class="text__subtitle">apartment area:</h3>
+                                <p class="text__content">81 m2</p>
+                            </div>
+                        </div> 
+                        <div class="text__flex-item-2">
+                            <div class="text__flex-box-3">
+                                <h3 class="text__subtitle">Repair time:</h3>
+                                <p class="text__content">3.5 months</p>
+                            </div>
+                            <div class="text__flex-box-4">
+                                <h3 class="text__subtitle">Repair Cost:</h3>
+                                <p class="text__content">Upon request</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <br>
+                
+
                 
             </section>
-            <section class="completed-project online-control">
+            <section class="online-control">
                 <div class="online-control__container">
                     <div class="online-control__logo">
                         <img class="control__img" src="../images/onlinecontrol.svg" alt="logo">
@@ -115,7 +140,7 @@
                         <img class="video__play" src="../images/play.svg" alt="play button">
                     </div>
                 </div> 
-                <div class="completed-project__application application">
+                <div class="online-control__application application">
                     <div class="application__dash">
                         <img src="../images/dash.svg" alt="dash">
                     </div>
@@ -207,64 +232,66 @@
             <section class="step-3">
                 <div class="step-3__container">
                     <div class="step-3__measurer measurer">
-                        <div class="measurer__list list">
-                            <div class="list__item">
-                                <div class="list__circle">
-                                <span class="list__number">01</span>
+                        <div class="measurer__container">
+                            <div class="measurer__list list">
+                                <div class="list__item">
+                                    <div class="list__circle">
+                                    <span class="list__number">01</span>
+                                    </div>
+                                    <span class="list__content">Our specialist will arrive for measurements per day
+                                                contact, or appoint a date convenient for you</span>
                                 </div>
-                                <span class="list__content">Our specialist will arrive for measurements per day
-                                            contact, or appoint a date convenient for you</span>
+                                <div class="list__item">
+                                    <div class="list__circle">
+                                    <span class="list__number">02</span>
+                                    </div>
+                                    <span class="list__content">Free metering</span>
+                                </div>
+                                <div class="list__item">  
+                                    <div class="list__circle">
+                                    <span class="list__number">03</span>
+                                    </div>
+                                    <span class="list__content">Free consultation</span>
+                                </div>
+                                <div class="list__item">
+                                    <div class="list__circle">
+                                    <span class="list__number">04</span>
+                                    </div>
+                                    <span class="list__content">Get a cost estimate and
+                                                the timing of your future repairs</span>
+                                </div>
                             </div>
-                            <div class="list__item">
-                                <div class="list__circle">
-                                <span class="list__number">02</span>
+                            <div class="measurer__box">
+                                <div class="measurer__form">
+                                    <h3 class="measurer__title">Leave a request for free
+                                        departure of the measurer</h3>
+                                    <div class="measurer__name name">
+                                        <span class="name__subtitle">Name</span>
+                                        <span class="name__input">What is your name:</span>
+                                    </div>
+                                    <div class="measurer__phone phone">
+                                        <span class="phone__subtitle">Phone</span>
+                                        <span class="phone__input">Your phone number:</span>
+                                    </div>
+                                    <div class="measurer__email email">
+                                        <span class="email__subtitle">Email</span>
+                                        <span class="email__input">Your email</span>
+                                    </div>
+                                    <div class="measurer__agree">
+                                        <img src="../images/ok.svg" alt="ok">
+                                        <span>I agree to the processing of personal data</span>
+                                    </div>
+                                    <button class="measurer__button">call the measurer</button>
                                 </div>
-                                <span class="list__content">Free metering</span>
+                                <div class="measurer__pigsale pigsale">
+                                    <div class="pigsale__img">
+                                        <img src="../images/pig.svg" alt="piggy bank">
+                                    </div>
+                                    <span class="pigsale__content">Help save 10 - 20% of the 
+                                        cost of materials</span>
+                                </div>
                             </div>
-                            <div class="list__item">  
-                                <div class="list__circle">
-                                <span class="list__number">03</span>
-                                </div>
-                                <span class="list__content">Free consultation</span>
-                            </div>
-                            <div class="list__item">
-                                <div class="list__circle">
-                                <span class="list__number">04</span>
-                                </div>
-                                <span class="list__content">Get a cost estimate and
-                                            the timing of your future repairs</span>
-                            </div>
-                        </div>
-                        <div class="measurer__box">
-                            <div class="measurer__form">
-                                <h3 class="measurer__title">Leave a request for free
-                                    departure of the measurer</h3>
-                                <div class="measurer__name name">
-                                    <span class="name__subtitle">Name</span>
-                                    <span class="name__input">What is your name:</span>
-                                </div>
-                                <div class="measurer__phone phone">
-                                    <span class="phone__subtitle">Phone</span>
-                                    <span class="phone__input">Your phone number:</span>
-                                </div>
-                                <div class="measurer__email email">
-                                    <span class="email__subtitle">Email</span>
-                                    <span class="email__input">Your email</span>
-                                </div>
-                                <div class="measurer__agree">
-                                    <img src="../images/ok.svg" alt="ok">
-                                    <span>I agree to the processing of personal data</span>
-                                </div>
-                                <button class="measurer__button">call the measurer</button>
-                            </div>
-                            <div class="measurer__pigsale pigsale">
-                                <div class="pigsale__img">
-                                    <img src="../images/pig.svg" alt="piggy bank">
-                                </div>
-                                <span class="pigsale__content">Help save 10 - 20% of the 
-                                    cost of materials</span>
-                            </div>
-                        </div>
+                    </div>
                     </div>
                     <div class="realize">
                         <div class="realize__container">
@@ -287,8 +314,8 @@
                             </div>
                             <div class="realize__image-box image-box">
                                 <img class="image-box__item-1" src="../images/realize__item1.png" alt="Комната с большим шкафом">
-                                <img class="image-box__item-2" src="../images/realize__item2.png" alt="Комната с диваном">
                                 <img class="image-box__item-3" src="../images/realize__item3.png" alt="Комната с черным мольбертом">
+                                <img class="image-box__item-2" src="../images/realize__item2.png" alt="Комната с диваном">
                                 <img class="image-box__item-4" src="../images/realize__item4.png" alt="Ваза на столе">
                             </div>
                         </div>
@@ -435,16 +462,15 @@
                         </ul>
                     </nav>
                     <div class="header-footer__number">
-                        <a href="">+7 (928) 768-32-39</a>
+                        <a class="header-footer__number-item" href="">+7 (928) 768-32-39</a>
+                        <button class="header-footer__button button"> 
+                            <a class="button__link" href="">Request a call</a>
+                        </button>
                     </div>
-                    <button class="header-footer__button button"> 
-                        <a class="button__link" href="">Request a call</a>
-                    </button>
                 </div>
             </footer>
             </div>
         </main>
-    </div>
     
 </body>
 </html>
