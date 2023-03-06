@@ -1147,6 +1147,7 @@ input {
         margin-top: 93px;
     }
 
+
 }
 
 @media (max-width: 768px) {
@@ -1436,7 +1437,7 @@ input {
     }
 
     .question {
-        height: 630px;
+        height: 640px;
         z-index: -2;
     }
 
@@ -1454,24 +1455,27 @@ input {
 
     .pre-footer {
         background-image: none;
+        height: 600px;
     }
 
     .pre-footer__container {
         display: flex;
         flex-direction: column-reverse;
         background-color: #181818;
-        height: none;
+        height: 600px;
         
     
     }
 
     .pre-footer__title {
-        padding: 0 0;
+        padding: 0 0 50px;
     }
 
     .header-footer__container-2 {
         display: none;
     }
+
+
 
 
 }
