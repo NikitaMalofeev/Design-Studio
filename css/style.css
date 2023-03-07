@@ -18,8 +18,6 @@ input {
     width: 100%;
 }
 
-
-
 .main  {
     flex: 1 1 100%;
 }
@@ -151,6 +149,7 @@ input {
     border-radius: 2px;
     text-decoration: none;
     font-size: 11px;
+    border: none;
 }
 
 .button-hollow {
@@ -414,6 +413,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 }
 
 .example__item-1 {
@@ -1107,6 +1107,53 @@ input {
         display: block;
     }
 
+    .repair__container {
+        height: 2000px;
+    }
+
+    .example__flex {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    .example__item-1 {
+        margin: 0 auto;
+    }
+
+    .example__item-2 {
+        margin: 0 auto;
+    }
+
+    .example__item-3 {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .measurer {
+        background-image: url();
+    }
+
+    .image-box__item-2 {
+        display: none;
+    }
+
+    .image-box__item-4 {
+        display: none;
+    }
+
+    .measurer__list {
+        display: none;
+    }
+
+    .feedback__item-1 {
+        display: none;
+    }
+
+    .feedback__item-3 {
+        display: none;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -1146,6 +1193,15 @@ input {
     .video__play {
         margin-top: 93px;
     }
+
+    .image-box__item-1 {
+        padding: 0 15px;
+    }
+
+    .image-box__item-3 {
+        padding: 0 15px; 
+    }
+
 
 
 }
@@ -1332,6 +1388,10 @@ input {
         margin-top: 100px;
     }
 
+    .measurer {
+        background-image: url();
+    }
+
     .example__flex {
         flex-direction: column;
         
@@ -1342,7 +1402,7 @@ input {
     }
 
     .step-3 {
-        margin-top: 1500px;
+        margin-top: 100px;
     }
 
     .measurer {
@@ -1359,6 +1419,7 @@ input {
 
     .example__item-2 {
         z-index: -4;
+        margin: 20px auto;
     }
 
     .example__item-3 {
@@ -1374,6 +1435,18 @@ input {
     .example__button {
         margin-bottom: 20px;
         z-index: 3;
+    }
+
+    .feedback__item {
+        display: none;
+    }
+
+    .feedback__item-1 {
+        display: none;
+    }
+
+    .feedback__item-3 {
+        display: none;
     }
 
     .realize {
@@ -1483,4 +1556,4 @@ input {
 
 
 /* 1. Я много в каких селекторах css подключал 2 разных шрифта (особенно это видно в clients__question), почему=то я не мог задать единый шрифт nunito на body например. Как лучше было сделать со шрифтами? */
-    /* 2. Правильно ли для переноса текста на другую строку использовать ограничение ширины блока с текстом, как например .pre-footer__title, какие еще способы кроме br есть?  */
+/* 2. Правильно ли для переноса текста на другую строку использовать ограничение ширины блока с текстом, как например .pre-footer__title, какие еще способы кроме br есть?  */
